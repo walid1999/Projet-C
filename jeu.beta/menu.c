@@ -17,7 +17,7 @@ void affichageMenu(){
             printf("You selected Create New Game \n");
             system("pause");
             break;
-            (choixMenu == 4);
+            (choixMenu != 1);
             }
             break;
         case 2:
@@ -38,13 +38,11 @@ void affichageMenu(){
             system("pause");
             break;
         }
-    }while   (choixMenu == 4);
+    }while   (choixMenu != 1);
         {
             char prenom[20] = {0};
             printf("Entrez votre prenom : ");
-        scanf("%s",&prenom);
-        printf("\nBonjour %s, \nBienvenue dans le RPG ", prenom);
+            scanf("%s",&prenom);
+            printf("\nBonjour %s, \nBienvenue dans le RPG ", prenom);
         }
 }
-
-

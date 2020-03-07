@@ -6,4 +6,3 @@ int main()
     affichageMenu();
     return 0;
 }
-#
