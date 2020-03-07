@@ -1,0 +1,4 @@
+struct carte{
+    carte tableau;
+
+

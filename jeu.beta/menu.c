@@ -1,3 +1,6 @@
+#include "personnage.h"
+#include <stdio.h>
+#include <stdlib.h>
 void affichageMenu(){
     int choixMenu;
     do{
@@ -15,7 +18,6 @@ void affichageMenu(){
         case 1:
             {
             printf("You selected Create New Game \n");
-            system("pause");
             break;
             (choixMenu != 1);
             }
@@ -40,9 +42,15 @@ void affichageMenu(){
         }
     }while   (choixMenu != 1);
         {
-            char prenom[20] = {0};
+            personnage* Joueur = (personnage*)malloc(sizeof(personnage)); //demande a la machine de sauvegarder un espace memoire de taille "personnage"
+            Joueur->name = (char*)malloc(sizeof(char)*20);//meme chose pour le name car c'est un pointeur et on sait pas combien il peu stocker *20
             printf("Entrez votre prenom : ");
-            scanf("%s",&prenom);
-            printf("\nBonjour %s, \nBienvenue dans le RPG ", prenom);
+            scanf("%s",Joueur->name);
+            Joueur->pv = 20;
+            Joueur->att = 3;
+            Joueur->def = 5;
+            printf("\nBonjour %s, \nBienvenue dans le RPG\n ", Joueur->name);
+            printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d défense", Joueur->pv, Joueur->att, Joueur->def );
+
         }
 }
