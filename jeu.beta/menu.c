@@ -39,12 +39,12 @@ void affichageMenu(){
             break;
         }
     }while   (choixMenu == 4);
-    {
-         char prenom[10];
-
-        printf("Entrez votre prenom : ");
+        {
+            char prenom[20] = {0};
+            printf("Entrez votre prenom : ");
         scanf("%s",&prenom);
-        printf("\nBonjour %s", prenom);
-
-    }
+        printf("\nBonjour %s, \nBienvenue dans le RPG ", prenom);
+        }
 }
+
+
