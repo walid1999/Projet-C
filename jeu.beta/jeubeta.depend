@@ -7,17 +7,23 @@
 
 1583317392 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\game.c
 
-1583599396 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\main.c
+1583611385 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\main.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 
-1583603279 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
+1583613088 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
 	"personnage.h"
 	<stdio.h>
 	<stdlib.h>
+	<windows.h>
+	"header.h"
 
 1583599822 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\personnage.h
 
-1583599165 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.h
+1583606805 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.h
+
+1583614789 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\cremap.c
+
+1583612141 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\header.h
 

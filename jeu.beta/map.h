@@ -1,4 +1,0 @@
-struct carte{
-    carte tableau;
-
-

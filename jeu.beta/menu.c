@@ -1,6 +1,8 @@
 #include "personnage.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
+#include "header.h"
 void affichageMenu(){
     int choixMenu;
     do{
@@ -24,11 +26,9 @@ void affichageMenu(){
             break;
         case 2:
             printf("You selected Load Save Game \n");
-            system("pause");
             break;
         case 3:
             printf("Enzo HADEG \nRomain CALVET \nWalid BEN KHELFALLAH \n");
-            system("pause");
             break;
         case 4:
             printf("\nBye!\n");
@@ -43,14 +43,19 @@ void affichageMenu(){
     }while   (choixMenu != 1);
         {
             personnage* Joueur = (personnage*)malloc(sizeof(personnage)); //demande a la machine de sauvegarder un espace memoire de taille "personnage"
+            int **map=creamap();
             Joueur->name = (char*)malloc(sizeof(char)*20);//meme chose pour le name car c'est un pointeur et on sait pas combien il peu stocker *20
             printf("Entrez votre prenom : ");
             scanf("%s",Joueur->name);
             Joueur->pv = 20;
             Joueur->att = 3;
             Joueur->def = 5;
-            printf("\nBonjour %s, \nBienvenue dans le RPG\n ", Joueur->name);
-            printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d défense", Joueur->pv, Joueur->att, Joueur->def );
-
+            printf("\nBonjour %s") ;
+            Sleep(1000);
+            printf("\nBienvenue dans le RPG\n ", Joueur->name);
+            Sleep(1000);
+            printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d defense\n\n", Joueur->pv, Joueur->att, Joueur->def );
+            affichagemap(map);
         }
 }
+

@@ -3,5 +3,5 @@
 void affichageMenu();
 
 
-#endif // GAME_H_INCLUDED
+#endif // menu_H_INCLUDED
 
