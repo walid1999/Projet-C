@@ -12,7 +12,7 @@
 	<stdlib.h>
 	"menu.h"
 
-1583613088 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
+1583698898 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
 	"personnage.h"
 	<stdio.h>
 	<stdlib.h>
@@ -26,4 +26,6 @@
 1583614789 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\cremap.c
 
 1583612141 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\header.h
+
+1583698841 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\serchpersonnage.c
 

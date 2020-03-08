@@ -19,7 +19,7 @@ void affichageMenu(){
         {
         case 1:
             {
-            printf("You selected Create New Game \n");
+            printf("You selected Create New Game- \n");
             break;
             (choixMenu != 1);
             }
@@ -56,6 +56,7 @@ void affichageMenu(){
             Sleep(1000);
             printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d defense\n\n", Joueur->pv, Joueur->att, Joueur->def );
             affichagemap(map);
+            search_personnage();
         }
 }
 
