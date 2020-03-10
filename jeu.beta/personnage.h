@@ -1,4 +1,5 @@
 typedef struct personnage personnage;
+
 struct personnage
 {
     char *name;

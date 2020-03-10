@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #include <windows.h>
 #include "header.h"
+#include "cremap.h"
+#include "serchpersonnage.h"
+#include "choix.h"
+
+
 void affichageMenu(){
     int choixMenu;
     do{
@@ -21,7 +26,7 @@ void affichageMenu(){
             {
             printf("You selected Create New Game- \n");
             break;
-            (choixMenu != 1);
+
             }
             break;
         case 2:
@@ -42,21 +47,27 @@ void affichageMenu(){
         }
     }while   (choixMenu != 1);
         {
+            int perso;
+            char playerChoice;
+
             personnage* Joueur = (personnage*)malloc(sizeof(personnage)); //demande a la machine de sauvegarder un espace memoire de taille "personnage"
-            int **map=creamap();
+
             Joueur->name = (char*)malloc(sizeof(char)*20);//meme chose pour le name car c'est un pointeur et on sait pas combien il peu stocker *20
             printf("Entrez votre prenom : ");
             scanf("%s",Joueur->name);
             Joueur->pv = 20;
             Joueur->att = 3;
             Joueur->def = 5;
-            printf("\nBonjour %s") ;
+            printf("\nBonjour %s", Joueur->name) ;
             Sleep(1000);
-            printf("\nBienvenue dans le RPG\n ", Joueur->name);
+            printf("\nBienvenue dans le RPG\n ");
             Sleep(1000);
             printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d defense\n\n", Joueur->pv, Joueur->att, Joueur->def );
-            affichagemap(map);
-            search_personnage();
+
+            affichagemap(creamap( &perso ));
+            search_personnage(creamap(&perso), perso);
+            choix(playerChoice);
+
         }
 }
 
