@@ -7,27 +7,32 @@
 
 1583317392 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\game.c
 
-1583611385 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\main.c
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\main.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 
-1583698898 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.c
 	"personnage.h"
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
 	"header.h"
+	"cremap.h"
+	"serchpersonnage.h"
+	"choix.h"
 
-1583599822 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\personnage.h
+1583849781 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\personnage.h
 
 1583606805 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\menu.h
 
-1583614789 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\cremap.c
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\cremap.c
+	<stdio.h>
+	<stdlib.h>
 
-1583612141 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\header.h
+1583849738 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\header.h
 
-1583698841 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\serchpersonnage.c
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\serchpersonnage.c
 
 1583780000 source:c:\users\walid\desktop\projet-c\jeu.beta\main.c
 	<stdio.h>
@@ -67,4 +72,18 @@
 1583834886 source:c:\users\walid\desktop\projet-c\jeu.beta\choix.c
 	<stdio.h>
 	<stdlib.h>
+
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\choix.c
+	<stdio.h>
+	<stdlib.h>
+
+1583849781 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\cremap.h
+
+1583849781 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\serchpersonnage.h
+
+1583849781 c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\choix.h
+
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\personnage.c
+
+1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\deplacement.c
 

@@ -58,11 +58,17 @@ void affichageMenu(){
             Joueur->pv = 20;
             Joueur->att = 3;
             Joueur->def = 5;
-            printf("\nBonjour %s", Joueur->name) ;
+            printf("\nBonjour Sergent Chef %s \n") ;
             Sleep(1000);
-            printf("\nBienvenue dans le RPG\n ");
-            Sleep(1000);
-            printf("\nVous avez :\n\n%d pv ""\n%d attaque" "\n%d defense\n\n", Joueur->pv, Joueur->att, Joueur->def );
+            printf("\nVous incarnez un jeune policier de Clichy");
+            Sleep(2000);
+            printf("\na la recherche de deux voleurs\n");
+            Sleep(2000);
+            printf("\nBaptiste Lereufton");
+            Sleep(2000);
+            printf(" et Elodie Latortu\n");
+            Sleep(2000);
+            printf("\nEn tant que Sergent Chef Vous avez:\n\n%d points de vie "" %d points d'attaque" " %d de defenses\n\n", Joueur->pv, Joueur->att, Joueur->def );
 
             affichagemap(creamap( &perso ));
             search_personnage(creamap(&perso), perso);
