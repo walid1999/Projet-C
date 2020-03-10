@@ -70,9 +70,16 @@ void affichageMenu(){
             Sleep(2000);
             printf("\nEn tant que Sergent Chef Vous avez:\n\n%d points de vie "" %d points d'attaque" " %d de defenses\n\n", Joueur->pv, Joueur->att, Joueur->def );
 
-            affichagemap(creamap( &perso ));
-            search_personnage(creamap(&perso), perso);
+          int map = creamap(&perso);
+          do{
+            affichagemap(map);
+            search_personnage(map, perso);
             choix(playerChoice);
+            int Tour = deplacement(playerChoice, map, search_personnage(map, perso));
+            map = Tour;
+
+          }while (playerChoice = 'f');
+
 
         }
 }

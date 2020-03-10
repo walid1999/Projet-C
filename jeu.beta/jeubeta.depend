@@ -41,7 +41,7 @@
 
 1583708286 c:\users\walid\desktop\projet-c\jeu.beta\menu.h
 
-1583834723 source:c:\users\walid\desktop\projet-c\jeu.beta\menu.c
+1583857771 source:c:\users\walid\desktop\projet-c\jeu.beta\menu.c
 	"personnage.h"
 	<stdio.h>
 	<stdlib.h>
@@ -55,7 +55,7 @@
 
 1583708286 c:\users\walid\desktop\projet-c\jeu.beta\header.h
 
-1583780000 c:\users\walid\desktop\projet-c\jeu.beta\cremap.h
+1583856074 c:\users\walid\desktop\projet-c\jeu.beta\cremap.h
 
 1583831663 source:c:\users\walid\desktop\projet-c\jeu.beta\cremap.c
 	<stdio.h>
@@ -65,11 +65,11 @@
 
 1583835078 source:c:\users\walid\desktop\projet-c\jeu.beta\serchpersonnage.c
 
-1583832220 c:\users\walid\desktop\projet-c\jeu.beta\serchpersonnage.h
+1583854619 c:\users\walid\desktop\projet-c\jeu.beta\serchpersonnage.h
 
 1583834723 c:\users\walid\desktop\projet-c\jeu.beta\choix.h
 
-1583834886 source:c:\users\walid\desktop\projet-c\jeu.beta\choix.c
+1583855862 source:c:\users\walid\desktop\projet-c\jeu.beta\choix.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -86,4 +86,9 @@
 1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\personnage.c
 
 1583849781 source:c:\users\romai\onedrive\documents\github\projet-c\jeu.beta\deplacement.c
+
+1583857443 source:c:\users\walid\desktop\projet-c\jeu.beta\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	"cremap.h"
 
