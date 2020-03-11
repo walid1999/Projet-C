@@ -10,7 +10,7 @@ int* search_personnage(int **creamap, int personnage)  //Fonction permettant de 
             if (creamap[i][j] == personnage)
             {
                 printf("%d | %d \n",i,j);
-                return i,j;
+                return i,j; //on ne peut return 2 valeurs
             }
             i++;
         }

@@ -92,3 +92,47 @@
 	<stdlib.h>
 	"cremap.h"
 
+1583912192 source:c:\users\enzo\documents\github\projet-c\jeu.beta\choix.c
+	<stdio.h>
+	<stdlib.h>
+
+1583850280 source:c:\users\enzo\documents\github\projet-c\jeu.beta\cremap.c
+	<stdio.h>
+	<stdlib.h>
+
+1583912192 source:c:\users\enzo\documents\github\projet-c\jeu.beta\deplacement.c
+	<stdio.h>
+	<stdlib.h>
+	"cremap.h"
+
+1583912192 c:\users\enzo\documents\github\projet-c\jeu.beta\cremap.h
+
+1583850280 source:c:\users\enzo\documents\github\projet-c\jeu.beta\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1583850280 c:\users\enzo\documents\github\projet-c\jeu.beta\menu.h
+
+1583963636 source:c:\users\enzo\documents\github\projet-c\jeu.beta\menu.c
+	"personnage.h"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"header.h"
+	"cremap.h"
+	"serchpersonnage.h"
+	"choix.h"
+
+1583963652 c:\users\enzo\documents\github\projet-c\jeu.beta\personnage.h
+
+1583850280 c:\users\enzo\documents\github\projet-c\jeu.beta\header.h
+
+1583850280 c:\users\enzo\documents\github\projet-c\jeu.beta\serchpersonnage.h
+
+1583850280 c:\users\enzo\documents\github\projet-c\jeu.beta\choix.h
+
+1583850280 source:c:\users\enzo\documents\github\projet-c\jeu.beta\personnage.c
+
+1583949873 source:c:\users\enzo\documents\github\projet-c\jeu.beta\serchpersonnage.c
+
